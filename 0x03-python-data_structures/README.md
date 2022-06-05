@@ -1,4 +1,4 @@
-# 0x02. Python - import & modules
+#0x03. Python - Data Structures: Lists, Tuples
 **About:** How to import functions from another file, and how to create a module
 ## Introduction/Objective
 * To know what lists are and how to use them
