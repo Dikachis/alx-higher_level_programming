@@ -5,6 +5,6 @@ def replace_in_list(my_list, idx, element):
         return my_list
     if idx >= len(my_list):
         return my_list
-    for name in names:
+    for idx in my_list:
         new_list = idx.replace("element", "new_element")
         return (new_list)
