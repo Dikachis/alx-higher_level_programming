@@ -11,5 +11,5 @@ def add_tuple(tuple_a=(), tuple_b=()):
     elif len(tuple_b) >= 2:
         tuple_b = (tuple_b[0], tuple_b[1])
 
-    result = tuple(map(lambda [0], [1]: [0] + [1], tuple_a, tuple_b))
+    result = tuple(map(sum, zip(tuple_a, tuple_b)))
     return result
