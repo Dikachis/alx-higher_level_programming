@@ -9,7 +9,7 @@ int is_palindrome(listint_t **head)
 	listint_t *p = NULL;
 	int i = 0, size = 0, j = 0, flag = 1;
 	int *a = NULL;
-	
+
 	if (head == NULL || *head == NULL)
 		return (flag);
 	p = *head;
