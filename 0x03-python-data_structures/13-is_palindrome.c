@@ -1,44 +1,35 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 /**
- * palindrome_rec - Iterates through a list recursively
- * @head: head of the list
- * @tail: iterates to the end of the list
- *
- * Return: 1 if a palindrome, 0 if not a palindrome
+ * is_palindrome - Checks if a singly linked list is a palindrome.
+ * @head: linked list.
+ * Return: 0 if it is not a palindrome, 1 if it is a palindrome
  */
-
-int palindrome_rec(listint_t **head, listint_t *tail)
-{
-	if (tail == NULL)
-		return (1);
-
-	if (palindrome_rec(head, tail->next) == 1 && (*head)->n == tail->n)
-	{
-		(*head) = (*head)->next;
-		return (1);
-	}
-
-	else
-		return (0);
-}
-
-
-/**
- * is_palindrome - checks if linked list is a palindrome
- * @head: head of the list
- *
- * Return: 1 if a palindrome, 0 if not a palindrome
- */
-
 int is_palindrome(listint_t **head)
 {
-	if (*head == NULL)
-		return (1);
-
-	if ((*head)->next == NULL)
-		return (1);
-
-	return (palindrome_rec(head, *head));
+	listint_t *p = NULL;
+	int i = 0, size = 0, j = 0, flag = 1;
+	int *a = NULL;
+	
+	if (head == NULL || *head == NULL)
+		return (flag);
+	p = *head;
+	while (p->next != NULL)
+	{
+		size++;
+		p = p->next;
+	}
+	a = malloc(sizeof(int) * size + 1);
+	p = *head;
+	while (p != NULL)
+	{
+		a[i] = p->n;
+		i++;
+		p = p->next;
+	}
+	j = size;
+	for (i = 0; i <= size / 2; i++, j--)
+		if (a[i] != a[j])
+			flag = 0;
+	free(a);
+	return (flag);
 }
