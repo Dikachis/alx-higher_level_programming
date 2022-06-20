@@ -28,5 +28,11 @@
 |2. | [1-safe_print_integer.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/1-safe_print_integer.py)| A function that prints an integer with ``"{:d}".format()``.|
 |3. | [2-safe_print_list_integers.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/2-safe_print_list_integers.py) | function that prints the first **x** elements of a list and only integers.|
 |4. | [3-safe_print_division.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/3-safe_print_division.py)| A function that divides 2 integers and prints the result.|
+|5. | [5-raise_exception.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/5-raise_exception.py) | A function that raises a type exception.|
+|6. | [6-raise_exception_msg.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/6-raise_exception_msg.py)| A function that raises a name exception with a message.|
+|7. | [100-safe_print_integer_err.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/100-safe_print_integer_err.py) | A function that prints an integer, returns True if value has been correctly printed (it means the value is an integer).|
+|8. | [101-safe_function.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/101-safe_function.py)| A function that executes a function safely. |
+|9. | [102-magic_calculation.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/102-magic_calculation.py) | The Python function ``def magic_calculation(a, b):`` that does exactly the same as the following Python bytecode:|
+|10. | [103-python.c](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x05-python-exceptions/103-python.c)| Three C functions created to print some basic info about Python lists, Python bytes an Python float objects.|
 
 [Alx](https://alx-intranet.hbtn.io/projects/245) | [Firefox Pocket](https://getpocket.com/my-list?src=navbar)
