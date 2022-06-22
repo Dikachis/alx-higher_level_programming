@@ -1,77 +1,69 @@
 #!/usr/bin/python3
-""" Square module """
+"""Define a class Square."""
 
 
 class Square:
-    """ Declares a square class """
+    """Represent a square."""
 
-    def __init__(self, size=0, position=(0, 0)) -> None:
-        """
-        Intializes the attributes
-
+    def __init__(self, size=0, position=(0, 0)):
+        """Initialize a new square.
         Args:
-            size: size of square
-            position:  position of square
+            size (int): The size of the new square.
+            position (int, int): The position of the new square.
         """
         self.size = size
         self.position = position
 
     @property
     def size(self):
-        """ Gets the private attribute to be used in class """
-        return self.__size
+        """Get/set the current size of the square."""
+        return (self.__size)
 
     @size.setter
     def size(self, value):
-        if type(value) is not int:
+        if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
-        else:
-            self.__size = value
+        self.__size = value
 
     @property
     def position(self):
-        """ Gets the private attribute to be used in class """
-        return self.__position
+        """Get/set the current position of the square."""
+        return (self.__position)
 
     @position.setter
     def position(self, value):
-        if type(value) is not tuple or len(value) != 2:
+        if (not isinstance(value, tuple) or
+                len(value) != 2 or
+                not all(isinstance(num, int) for num in value) or
+                not all(num >= 0 for num in value)):
             raise TypeError("position must be a tuple of 2 positive integers")
-        elif type(value[0]) is not int or value[0] < 0:
-            raise TypeError("position must be a tuple of 2 positive integers")
-        elif type(value[1]) is not int or value[1] < 0:
-            raise TypeError("position must be a tuple of 2 positive integers")
-        else:
-            self.__position = value     # tuple contains 2 positive integers
+        self.__position = value
 
     def area(self):
-        """ Computes area of a square """
-        return self.__size ** 2
+        """Return the current area of the square."""
+        return (self.__size * self.__size)
+
+    def my_print(self):
+        """Print the square with the # character."""
+        if self.__size == 0:
+            print("")
+            return
+
+        [print("") for i in range(0, self.__position[1])]
+        for i in range(0, self.__size):
+            [print(" ", end="") for j in range(0, self.__position[0])]
+            [print("#", end="") for k in range(0, self.__size)]
+            print("")
 
     def __str__(self):
-        """ Prints in stdout the square with the character # """
-        output = list()
-        if self.__size == 0:
-            return "\n"
-        else:
-            integer = 0
-            pos1, pos2 = self.__position
-            for new_line in range(pos2):
-                output.append("\n")
-            while integer < self.__size:
-
-                j = 0
-                while j < pos1:
-                    output.append(" ")  # replace position with space
-                    j += 1
-
-                number = 0
-                while number < self.__size:
-                    output.append("#")
-                    number += 1
-                if integer + 1 != self.__size:
-                    output.append("\n")
-                integer += 1
-            return "".join(output)
+        """Define the print() representation of a Square."""
+        if self.__size != 0:
+            [print("") for i in range(0, self.__position[1])]
+        for i in range(0, self.__size):
+            [print(" ", end="") for j in range(0, self.__position[0])]
+            [print("#", end="") for k in range(0, self.__size)]
+            if i != self.__size - 1:
+                print("")
+        return ("")
