@@ -10,7 +10,7 @@
 * To know when we need to implement a clean-up action after an exception
 
 ### Resources
-* [Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4) || [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html) || [Code & Transcript](http://goo.gl/QqtV7L) || [Python Book](http://amzn.to/2aapV6S)
+* [Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4) || [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html) || [Code & Transcript](http://goo.gl/QqtV7L) || [Python Book](http://amzn.to/2aapV6S) || [Python Tutorial for Beginners | Exception Handling](https://www.youtube.com/watch?v=6SPDvPK38tw)
 
 ## General Requirements
 * Allowed editors: **vi**, **vim**, **emacs**
