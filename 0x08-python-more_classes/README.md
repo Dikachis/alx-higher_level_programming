@@ -1,6 +1,6 @@
 # 0x08. Python - More Classes and Objects
 To know more about class, object or instance
-## Introduction/Objective
+## Introduction/Objectives
 * To know more the difference between a class and an object or instance
 * To know more what an attribute is
 * To know more what public, protected and private attributes are, and how to use them
