@@ -23,7 +23,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """initializing the rectangle by
-        setting the objet with width and height
+        settin the objet with width and height
         """
         self.width = width
         self.height = height
