@@ -10,7 +10,7 @@
 * To know when we need to implement a clean-up action after an exception
 
 ### Resources
-* [Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4) || [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html) || [Code & Transcript](http://goo.gl/QqtV7L) || [Python Book](http://amzn.to/2aapV6S) || [Python Tutorial for Beginners | Exception Handling](https://www.youtube.com/watch?v=6SPDvPK38tw) || [Python OOP Tutorial 2: Class Variables](https://www.youtube.com/watch?v=BJ-VvGyQxho)
+* [Static & Exception Handling](https://www.youtube.com/watch?v=7vbgD-3s-w4) || [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html) || [Code & Transcript](http://goo.gl/QqtV7L) || [Python Book](http://amzn.to/2aapV6S) || [Python Tutorial for Beginners | Exception Handling](https://www.youtube.com/watch?v=6SPDvPK38tw) || [Python OOP Tutorial 1: Classes and Instances](https://www.youtube.com/watch?v=ZDa-Z5JzLYM) || [Python OOP Tutorial 2: Class Variables](https://www.youtube.com/watch?v=BJ-VvGyQxho) || [Python OOP Tutorial 3: classmethods and staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M) etc.
 
 ## General Requirements
 * Allowed editors: **vi**, **vim**, **emacs**
