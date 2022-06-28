@@ -5,5 +5,5 @@ Defines an empty class Rectangle
 
 
 class Rectangle:
-    """This is an Empty class that represent a rectangle"""
+    """Empty representation of a rectangle"""
     pass
