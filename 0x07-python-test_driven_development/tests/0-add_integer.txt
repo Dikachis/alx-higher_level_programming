@@ -1,8 +1,9 @@
+==============================
 The ``0-add_integer`` module
-======================
+==============================
 
 Using ``add_integer``
--------------------
+------------------------------
 
 Importing the function from the module:
 	>>> add_integer = __import__("0-add_integer").add_integer
@@ -52,14 +53,10 @@ Checking for passed NaN:
 	 ValueError: cannot convert float NaN to integer
 
 Checking for passed inf:
-	 >>> add_integer(1, float('inf'))
+	 >>> add_integer(float('inf'), 3)
 	 Traceback (most recent call last):
 	 ...
 	 OverflowError: cannot convert float infinity to integer
-
-Checking super long int:
-	 >>> add_integer(999999999999999999999999999999, 1)
-	 1000000000000000000000000000000
 
 Checking non-number with number:
 	 >>> add_integer([1], 2)
