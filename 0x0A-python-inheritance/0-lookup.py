@@ -8,7 +8,7 @@ def lookup(obj):
     """
     Args:
         obj: initial object
-        Returns: a list of available attributes and 
+        Returns: a list of available attributes and
                  methods of an object
     """
     return dir(obj)
