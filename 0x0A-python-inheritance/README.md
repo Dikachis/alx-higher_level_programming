@@ -1,5 +1,5 @@
 # 0x0A. Python - Inheritance
-To know more about class, object or instance
+To know more about class, object or instance, and isinstance
 ## Introduction/Objectives
 * To know what a superclass, baseclass or parentclass is
 * To know what subclass is
@@ -44,3 +44,5 @@ To know more about class, object or instance
 |1. | [0-lookup.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/0-lookup.py) | A function that returns the list of available attributes and methods of an object: |
 |2. | [1-my_list.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py) <br> [tests/1-my_list.txt](https://github.com/Dikachis/alx-higher_level_programming/tree/master/0x0A-python-inheritance/tests)| To write a class ``MyList`` that inherits from ``list``:|
 |3. | [2-is_same_class.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/2-is_same_class.py) | A function that returns ``True`` if the object is exactly an instance of the specified class ; otherwise ``False``. |
+|4. | [3-is_kind_of_class.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/3-is_kind_of_class.py) | A function that returns ``True`` if the object is an instance of, or <br> if the object is an instance of a class that inherited from, the specified class ; otherwise ``False``. |
+|5. | [4-inherits_from.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/4-inherits_from.py) | A function that returns ``True`` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise ``False``. |
