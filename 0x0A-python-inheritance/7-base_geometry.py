@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is a module container of the function 5-base_geometry.py
+"""This is a module container of the function 6-base_geometry.py
 """
 
 
