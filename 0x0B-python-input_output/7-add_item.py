@@ -2,7 +2,7 @@
 """
 script to save and load
 """
-import sys
+from sys import argv
 
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
@@ -14,7 +14,7 @@ try:
     my_list = load_from_json_file(filename)
 except Exception:
 
-arg_len = len(argv)
+    arg_len = len(argv)
 
 if arg_len > 1:
     for i in range(1, arg_len):
