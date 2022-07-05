@@ -15,7 +15,7 @@ try:
 except Exception:
     save_to_json_file(my_list, filename)
 
-    arg_len = len(argv)
+arg_len = len(argv)
 
 if arg_len > 1:
     for i in range(1, arg_len):
