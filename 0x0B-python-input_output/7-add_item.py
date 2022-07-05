@@ -13,6 +13,7 @@ my_list = []
 try:
     my_list = load_from_json_file(filename)
 except Exception:
+    save_to_json_file(my_list, filename)
 
     arg_len = len(argv)
 
