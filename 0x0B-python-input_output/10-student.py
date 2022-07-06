@@ -28,7 +28,8 @@ def to_json(self, attrs=None):
     Retrieves dictionary representation of Student
         Args:
             attrs: initial list
-            Returns: a dictionary representation of a Student
+
+        Returns: a dictionary representation of a Student
     """
     if attrs is None or not all([type(attr) is str for attr in attrs]):
         return self.__dict__.copy()
