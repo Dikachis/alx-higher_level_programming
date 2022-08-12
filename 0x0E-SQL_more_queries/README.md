@@ -9,7 +9,7 @@
 * All files started by a comment describing the task
 * All SQL keywords were in uppercase (SELECT, WHERE…)
 
-## OBJECTIVES ACHIEVED ([x])
+## OBJECTIVES ACHIEVED- [x] 
 * Know on subqueries and how to use them to extract data
 * Know how to use constraints like: `NOT NULL`, `UNIQUE`, `AUTO_INCREMENT`, `DEFAULT` while creating columns
 - Know what and how to use the `PRIMARY KEY` and `FOREIGN KEY` to relate tables in a **database**
