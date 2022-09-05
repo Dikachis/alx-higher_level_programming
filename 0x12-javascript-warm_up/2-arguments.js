@@ -5,5 +5,5 @@ if (process.argv[2] === undefined) {
 } else {
     if (process.argv[2]) {
         console.log('Argument found');
-    } 
+    }
 }
