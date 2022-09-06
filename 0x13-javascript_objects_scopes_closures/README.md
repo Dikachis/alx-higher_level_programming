@@ -20,6 +20,7 @@
 - [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 - [this/self](https://alistapart.com/article/getoutbindingsituations/)
 - [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+- [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?v=control)
 
 ## Table of contents
 Files | Description
