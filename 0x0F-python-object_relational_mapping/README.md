@@ -1,4 +1,5 @@
 # 0x0F. Python - Object-relational mapping
+The goal of this project is to learn how to use an Object-relational mapper (ORM). The module MySQLdb will be used in Python to connect to a MySQL database, and then the module SQLAlchemy will be used.
 
 # Learning Objectives
 - To know why Python programming is awesome
@@ -64,7 +65,34 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 For installing ``MySQLdb``, you need to have ``MySQL`` installed:
 
 - **How to install MySQL 8.0 in Ubuntu 20.04**
+```
+$ sudo apt update
+$ sudo apt install mysql-server
+...
+$ mysql --version
+mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+$
+```
+Connect to your MySQL server:
+```
+$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 11
+Server version: 8.0.25-0ubuntu0.20.04.1 (Ubuntu)
 
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
+mysql> quit
+Bye
+$
+```
 - **How to install MySQLdb module version 2.0.x in Ubuntu 20.04**
 ```
 $ sudo apt-get install python3-dev
@@ -112,8 +140,8 @@ moved in a future release.")
 ## Files & Description
 |     S/N      |     Files      |      Description     |
 |...........|...........|...........|
-|   1.      | [0x0F-python-object_relational_mapping](./0-select_states.py) | A script that lists all states from the database ``hbtn_0e_0_usa:`` |
-|   2.      | [0x0F-python-object_relational_mapping](./1-filter_states.py)| A script that lists all ``states`` with a ``name`` starting with ``N`` (upper N) from the database ``hbtn_0e_0_usa:``|
-|   3.      |[0x0F-python-object_relational_mapping](./2-my_filter_states.py)|A script that takes in an argument and displays all values in the ``states`` table of ``hbtn_0e_0_usa`` where ``name`` matches the argument.|
+|   1.      | [0-select_states.py](./0-select_states.py) | A script that lists all states from the database ``hbtn_0e_0_usa:`` |
+|   2.      | [1-filter_states.py](./1-filter_states.py)| A script that lists all ``states`` with a ``name`` starting with ``N`` (upper N) from the database ``hbtn_0e_0_usa:``|
+|   3.      |[2-my_filter_states.py](./2-my_filter_states.py)|A script that takes in an argument and displays all values in the ``states`` table of ``hbtn_0e_0_usa`` where ``name`` matches the argument.|
 |   4.      |           |           |
 |   5.      |           |           |
