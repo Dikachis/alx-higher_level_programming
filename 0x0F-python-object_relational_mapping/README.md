@@ -137,9 +137,18 @@ moved in a future release.")
 - [SQLAlchemy ORM Tutorial for Python Developers](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
 - [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 
+## Table of contents
+Files | Description
+----- | -----------
+[0-select_states.py](./0-select_states.py) | Python script that lists all states from the database hbtn_0e_0_usa
+[1-filter_states.py](./1-filter_states.py) | Python script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa
+[2-my_filter_states.py](./2-my_filter_states.py) | Python script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument
+[3-my_safe_filter_states.py](./3-my_safe_filter_states.py) | Python script that takes in arguments and displays all values in the states table of hbtn_0e_0_usa where name matches the argument safe from SQL injections
+[4-cities_by_state.py](./4-cities_by_state.py) | Python script that lists all cities from the database hbtn_0e_4_usa
+
 ## Files & Description
 Files | Description   
 ..... | ...........
-[0-select_states.py](./0-select_states.py) | A script that lists all states from the database hbtn_0e_0_usa:
-[1-filter_states.py](./1-filter_states.py) | A script that lists all states with a name starting with N (upper N) from the database hbtn_0e_0_usa:
-[2-my_filter_states.py](./2-my_filter_states.py) | A script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
+[0-select_states.py](./0-select_states.py) | A script that lists all states from the database ``hbtn_0e_0_usa:``
+[1-filter_states.py](./1-filter_states.py) | A script that lists all ``states`` with a ``name`` starting with ``N`` (upper N) from the database ``hbtn_0e_0_usa:``
+[2-my_filter_states.py](./2-my_filter_states.py) | A script that takes in an argument and displays all values in the ``states`` table of ``hbtn_0e_0_usa`` where ``name`` matches the argument.
