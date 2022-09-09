@@ -138,10 +138,10 @@ moved in a future release.")
 - [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 
 ## Files & Description
-|     S/N      |     Files      |      Description     |
-|:...........:|...........:|...........:|
-|   1.      | [0-select_states.py](./0-select_states.py) | A script that lists all states from the database ``hbtn_0e_0_usa:`` |
-|   2.      | [1-filter_states.py](./1-filter_states.py)| A script that lists all ``states`` with a ``name`` starting with ``N`` (upper N) from the database ``hbtn_0e_0_usa:``|
-|   3.      |[2-my_filter_states.py](./2-my_filter_states.py)|A script that takes in an argument and displays all values in the ``states`` table of ``hbtn_0e_0_usa`` where ``name`` matches the argument.|
-|   4.      |           |           |
-|   5.      |           |           |
+     S/N      |     Files      |      Description     
+...........|...........|...........
+   1.      | [0-select_states.py](./0-select_states.py) | A script that lists all states from the database ``hbtn_0e_0_usa:`` 
+   2.      | [1-filter_states.py](./1-filter_states.py)| A script that lists all ``states`` with a ``name`` starting with ``N`` (upper N) from the database ``hbtn_0e_0_usa:``
+   3.      |[2-my_filter_states.py](./2-my_filter_states.py)|A script that takes in an argument and displays all values in the ``states`` table of ``hbtn_0e_0_usa`` where ``name`` matches the argument.
+   4.      |           |           
+   5.      |           |           
