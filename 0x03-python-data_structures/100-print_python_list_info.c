@@ -2,7 +2,7 @@
 #include <Python.h>
 
 /**
- * print_python_list_info - prints python list 
+ * print_python_list_info - prints python list
  * @p: PyObject
  * Return: no return
  */
