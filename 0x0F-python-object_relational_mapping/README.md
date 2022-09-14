@@ -136,6 +136,9 @@ moved in a future release.")
 - [Python SQLAlchemy Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
 - [SQLAlchemy ORM Tutorial for Python Developers](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
 - [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
+- [How To Install MySQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04)
+- [How to Restart MySQL in Ubuntu](https://linuxhint.com/restart-mysql-in-ubuntu/)
+- [MySQL - ERROR 1698 (28000) Access denied for user ‘root’@’localhost’](https://linuxnightly.com/error-1698-28000-access-denied-for-user-rootlocalhost/)
 
 ## Files & Description
 Files | Description
