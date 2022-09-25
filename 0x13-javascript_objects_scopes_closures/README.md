@@ -8,6 +8,16 @@
 - My code is ``semistandard`` compliant (version 16.x.x). [Rules of Standard](https://standardjs.com/rules.html) + [semicolons on top](https://github.com/standard/semistandard). Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
 - All files are executable
 
+## More Info
+**Install Node 14**
+``
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+``
+**Install semi-standard**
+[Documentation](https://github.com/standard/semistandard#JavaScript Semi-Standard Style)
+``$ sudo npm install semistandard --global``
+
 ### Resources
 **Read or watch:**
 - [JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
