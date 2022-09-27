@@ -2,6 +2,7 @@
 """ This module returns the peak of the list
 """
 
+
 def find_peak(list_of_integers):
     """ This function returns the peak of the list
     """
