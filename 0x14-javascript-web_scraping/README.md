@@ -25,7 +25,7 @@ Scripting API JavaScript
 - The length of the files will be tested using ``wc``
 - Not allowed to use ``var``
 
-### Installation
+## Installation
 **Install Node 10**
 ```
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -48,7 +48,7 @@ $ export NODE_PATH=/usr/lib/node_modules
 
 ## Files & Descriptions
 | Files			     | Descriptions                                                                           |
-| -------------------------- | -------------------------------------------------------------------------------------- |
+| -------------------------- |:-------------------------------------------------------------------------------------- |
 | 0-readme.js                | Read and prints the content of a file                                                  |
 | 1-writeme.js               | Writes a string to a file                                                              |
 | 2-statuscode.js            | Display the status code of a get request                                               |
