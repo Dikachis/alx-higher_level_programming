@@ -7,7 +7,7 @@ Scripting API JavaScript
 - [The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco](https://medium.com/@vietkieutie/the-workflow-of-accessing-the-attributes-of-a-simply-created-json-object-82a5b33e2319)
 - [request module](https://github.com/request/request)
 - [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
-- [Star wars API``(for advnced task:100-starwars_characters.js)``](https://swapi-api.hbtn.io/)
+- [Star wars API``(for advnced task:100-starwars_characters.js & 101-starwars_characters.js)``](https://swapi-api.hbtn.io/)
 
 ## Learning Objectives
 - Why JavaScript programming is amazing
