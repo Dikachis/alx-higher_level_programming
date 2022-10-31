@@ -60,4 +60,7 @@
 | 8-script.js            | JavaScript script that fetches and lists the title for all movies by using an api                                          |
 | 9-script.js            | JavaScript script that fetches from an api and displays the value of hello from that fetch in the HTML tag DIV#hello       |
 | htmls                  | All html files to run each scripts with                                                                                    |
-| 100-script.js          | JavaScript script that updates the text color of the <header> element to red (#FF0000)                                     |
+| 100-script.js          | JavaScript script that updates the text color of the <header> element to red (#FF0000)|
+| 101-script.js		 | A JavaScript script that adds, removes and clears ``LI`` elements from a list when the user clicks:|
+| 102-script.js		 | A JavaScript script that fetches and prints how to say “Hello” depending on the language|
+| 103-script.js		 | A JavaScript script that fetches and prints how to say “Hello” depending on the language|
